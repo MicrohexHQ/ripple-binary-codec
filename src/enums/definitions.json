@@ -889,16 +889,6 @@
       }
     ],
     [
-      "Generator",
-      {
-        "nth": 5,
-        "isVLEncoded": true,
-        "isSerialized": true,
-        "isSigningField": true,
-        "type": "Blob"
-      }
-    ],
-    [
       "Signature",
       {
         "nth": 6,
@@ -1562,7 +1552,19 @@
     "tecINSUF_RESERVE_OFFER": 123,
     "tecNO_LINE_INSUF_RESERVE": 126,
     "terNO_AUTH": -95,
-    "temBAD_TICK_SIZE": -270
+    "temBAD_TICK_SIZE": -270,
+
+    "telCAN_NOT_QUEUE": -392,
+    "temDISABLED": -274,
+    "temBAD_SIGNER": -273,
+    "temBAD_QUORUM": -272,
+    "temBAD_WEIGHT": -271,
+    "tefBAD_SIGNATURE": -186,
+    "tefBAD_QUORUM": -185,
+    "tefNOT_MULTI_SIGNING": -184,
+    "tefBAD_AUTH_MASTER": -183,
+    "terQUEUED": -89,
+    "tecCRYPTOCONDITION_ERROR": 146
   },
   "TRANSACTION_TYPES": {
     "OfferCancel": 8,
